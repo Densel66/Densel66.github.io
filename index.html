@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The personal website of Densel Juma — forex trader, entrepreneur, and founder of Trade With Us.">
+  <meta name="theme-color" content="#0b1220">
+  <title>Densel Juma | Forex Trader & Entrepreneur</title>
+  <style>
+    :root { --bg:#0b1220; --panel:#111c30; --text:#edf3ff; --muted:#b3c0d6; --accent:#61d6c4; --line:#283751; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; background:var(--bg); color:var(--text); line-height:1.65; }
+    a { color:inherit; }
+    .wrap { width:min(1060px, 92%); margin:auto; }
+    header { border-bottom:1px solid var(--line); position:sticky; top:0; background:rgba(11,18,32,.94); backdrop-filter:blur(10px); z-index:2; }
+    nav { display:flex; align-items:center; justify-content:space-between; gap:18px; padding:16px 0; flex-wrap:wrap; }
+    .brand { font-weight:800; letter-spacing:.3px; text-decoration:none; }
+    .brand span { color:var(--accent); }
+    .links { display:flex; gap:18px; flex-wrap:wrap; }
+    .links a { color:var(--muted); text-decoration:none; font-size:.95rem; }
+    .links a:hover { color:var(--accent); }
+    .hero { padding:92px 0 76px; display:grid; grid-template-columns:1.4fr .8fr; gap:36px; align-items:center; }
+    .eyebrow { color:var(--accent); text-transform:uppercase; letter-spacing:2px; font-size:.78rem; font-weight:800; }
+    h1 { font-size:clamp(2.7rem,7vw,5.1rem); line-height:1.03; margin:12px 0 20px; letter-spacing:-2px; }
+    h1 span { color:var(--accent); }
+    .lead { color:var(--muted); font-size:1.12rem; max-width:650px; }
+    .actions { display:flex; gap:12px; flex-wrap:wrap; margin-top:28px; }
+    .btn { display:inline-block; padding:11px 17px; border-radius:10px; border:1px solid var(--line); text-decoration:none; font-weight:700; }
+    .btn.primary { background:var(--accent); color:#08131d; border-color:var(--accent); }
+    .photo { min-height:280px; border:1px dashed #557087; border-radius:24px; display:flex; align-items:center; justify-content:center; text-align:center; padding:25px; background:linear-gradient(145deg,#14243a,#0d1728); color:var(--muted); }
+    .photo strong { display:block; color:var(--text); font-size:1.1rem; margin-bottom:8px; }
+    section { padding:58px 0; border-top:1px solid var(--line); }
+    h2 { font-size:clamp(1.8rem,4vw,2.5rem); margin:0 0 14px; }
+    .sub { color:var(--muted); max-width:760px; margin-top:0; }
+    .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin-top:26px; }
+    .card { background:var(--panel); border:1px solid var(--line); border-radius:16px; padding:22px; }
+    .card h3 { margin:0 0 8px; }
+    .card p { color:var(--muted); margin:0; }
+    .quote { font-size:clamp(1.2rem,3vw,1.8rem); border-left:3px solid var(--accent); padding:6px 0 6px 20px; max-width:850px; }
+    .contact { display:flex; flex-wrap:wrap; gap:12px; margin-top:22px; }
+    footer { padding:26px 0 40px; color:var(--muted); font-size:.9rem; }
+    @media (max-width:720px) { .hero { grid-template-columns:1fr; padding:62px 0; } .photo { min-height:180px; } .grid { grid-template-columns:1fr; } .links { gap:12px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <nav aria-label="Main navigation">
+        <a class="brand" href="#home">DENSEL<span> JUMA</span></a>
+        <div class="links">
+          <a href="#about">About</a><a href="#trading">Trading</a><a href="#business">Business</a><a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="wrap hero" id="home">
+      <div>
+        <div class="eyebrow">Forex Trader · Entrepreneur</div>
+        <h1>Meet <span>Densel Juma.</span></h1>
+        <p class="lead">Building knowledge, discipline, and opportunities through trading, business, and continuous learning.</p>
+        <div class="actions">
+          <a class="btn primary" href="#about">Discover my journey</a>
+          <a class="btn" href="#contact">Get in touch</a>
+        </div>
+      </div>
+      <div class="photo"><div><strong>Your photo goes here</strong>Photo space reserved for when you're ready to add one.</div></div>
+    </div>
+
+    <section id="about">
+      <div class="wrap">
+        <div class="eyebrow">About me</div>
+        <h2>A journey of learning and growth</h2>
+        <p class="sub">Densel Juma is a Kenyan aspiring entrepreneur with interests in forex markets, business development, and personal growth. He values discipline, patience, consistency, and learning from experience.</p>
+        <p class="sub">This website is a home for his professional journey, projects, and interests. It will grow over time as new milestones and achievements are added.</p>
+      </div>
+    </section>
+
+    <section id="trading">
+      <div class="wrap">
+        <div class="eyebrow">Forex trading</div>
+        <h2>Process before promises</h2>
+        <p class="sub">Densel studies price action, market structure, and trading concepts such as Smart Money Concepts (SMC) and Candle Range Theory (CRT). His learning interests include USDJPY and BTCUSD, with an emphasis on risk awareness and disciplined practice.</p>
+        <div class="grid">
+          <article class="card"><h3>Risk awareness</h3><p>Respecting risk and understanding that markets can move unpredictably.</p></article>
+          <article class="card"><h3>Consistency</h3><p>Building repeatable habits and reviewing decisions instead of chasing quick results.</p></article>
+          <article class="card"><h3>Continuous learning</h3><p>Improving through study, practice, reflection, and patience.</p></article>
+        </div>
+        <p class="sub" style="margin-top:18px;font-size:.9rem">Educational note: Trading involves substantial risk. This page is not financial advice or a promise of results.</p>
+      </div>
+    </section>
+
+    <section id="business">
+      <div class="wrap">
+        <div class="eyebrow">Business & projects</div>
+        <h2>Entrepreneurial mindset</h2>
+        <p class="sub">Densel is interested in business operations and agricultural services through his work with Agrihire Limited. He is also developing <strong>Trade With Us</strong>, a community concept centred on shared learning, responsibility, patience, and risk management.</p>
+        <div class="quote">“Progress is built through discipline, patience, consistency, and continuous improvement.”</div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="wrap">
+        <div class="eyebrow">Contact</div>
+        <h2>Connect with Densel</h2>
+        <p class="sub">Add your preferred public contact and social links here when you're ready. Only share contact details you are comfortable making public.</p>
+        <div class="contact">
+          <!-- Replace the example links below with your real public profile URLs. -->
+          <a class="btn" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a class="btn" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a>
+          <a class="btn" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer><div class="wrap">© <span id="year">2026</span> Densel Juma. Personal website.</div></footer>
+</body>
+</html>
